@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 9998
 
 # 定义容器启动时执行的命令
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "9998"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "9997"]
 
