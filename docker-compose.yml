@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web_browse_app:
+    build: .
+    ports:
+      - "9998:9998"
+    volumes:
+      - .:/app
+    environment:
+      # 图片上传服务器地址，参考https://github.com/fucheng830/image_store自行部署
+      - IMAGE_SERVER=https://static.123qiming.com

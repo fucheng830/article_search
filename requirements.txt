@@ -1,0 +1,8 @@
+requests
+lxml
+html2text
+regex
+selenium
+fastapi 
+uvicorn
+httpx
